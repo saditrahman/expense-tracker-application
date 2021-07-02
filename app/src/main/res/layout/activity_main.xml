@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5EAEA"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Expense Tracker"
+        android:textColor="@color/black"
+        android:textSize="46dp"
+        android:fontFamily="cursive"
+        />
+
+    <ImageView
+        android:layout_width="237dp"
+        android:layout_height="303dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/background"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:width="650dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/design_default_color_error"
+        android:text="REGISTER"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:width="650dp"
+        android:background="@color/design_default_color_error"
+        android:text="SIGNIN"
+        android:id="@+id/login"
+        />
+
+</LinearLayout>
