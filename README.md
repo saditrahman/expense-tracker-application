@@ -13,10 +13,10 @@ This is a very simple Expense Tracker application built using Java and Firebase.
 
 ## Classes and their uses:
 
-<ol>
-<li>MainActivity:The Home Screen<li>
-<li>Register:The registration backend</li>
-<li>Login:The login backend<li>
-</ol>
+<ul>
+<li>MainActivity: The Home Screen<li>
+<li>Register: The registration backend</li>
+<li>Login: The login backend<li>
+</ul>
 
 This is an ongoing project and we expect to add more features in the coming days. 
